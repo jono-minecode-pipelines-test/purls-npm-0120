@@ -1,0 +1,45 @@
+{
+    "name": "003-webpack-numbers",
+    "version": "1.0.10",
+    "description": "",
+    "main": "webpack-numbers.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "_id": "003-webpack-numbers@1.0.10",
+    "_nodeVersion": "14.18.1",
+    "_npmVersion": "6.14.15",
+    "dist": {
+        "integrity": "sha512-3BlvduU9bDPPyGd7NU/WzsIQSpmdFuVzNSgde27C/zGO4nED3Ge6Lccoi641LZa9MQsqP5c3YP+k5/GQqD8q+w==",
+        "shasum": "8a418e8ea7c2c6fe0b76038a05a68889bad06514",
+        "tarball": "https://registry.npmjs.org/003-webpack-numbers/-/003-webpack-numbers-1.0.10.tgz",
+        "fileCount": 3,
+        "unpackedSize": 1886,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQC3tGg9Qgmwt/AQXwlwlV2s6cBeWMo3L4Gnzs814I29aQIgIrqYn+j0vjR197o7IGHgi7fLT2EjrtUkd4u/brn9nOA="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJj9IdSACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpvDA/9FHMJ1IRlf8c/5MKyatSUFlIW1Q5dPxUNQ/fAHnEe8Rcjcyx7\r\neQmG1CiMCQSGdF5WGXGzx/3WTG22NuKurpVLmgkMJNj0jFZgIFKVK7OQ5brI\r\nMCLC3luMxs5OTxRo3qqofSR6Dw0niX2mw6zdW5B2TOgtTKmFYWR6LovZTX5R\r\nTLBTG6nF6AcFs+I5okypfHACOjYJ9HSlZ8Extx++CSWlKcZEsExgM+nbml7b\r\n9qHbg+qDcvAp+VxB4Dt8O1A3COXWvkI9IwH6S6ZVQudB6hdB9OqLirhNUkey\r\nm6r/wv0blI5P0EDPJ0MtzQFdWS/ezAIGY6Am7b8l2spfJiVp9JeJAcdHRw84\r\nTJNLjGVJLOG62k6tmWx7rAm5q5pCpWxcQuuIv/oazqT4Q3AriZJJKwvlPQOh\r\nTKjcQneWdg0YdfGO2glnu2WAz7fsAg38bRJD+qZD/Qz72Q3ZW8kCC5XC9j5k\r\nsgacVoMDuih4T82BVdojO01rlMCTWMP68VFLC5odX6ywhKG+OetSIQI46uAV\r\nUZXWZCK2M3lQK1VbDdhu6KnVS/wNZu++9Co66huM8yIiENPEzlmj1ROlSJrg\r\nNj7IfIyCIAh324k9qX/2KqeJF0pRNvLp9J8FpJpJSqbzD2vNjgWmOj71aQM7\r\np0hv4yLHxAcMEspHC6zQ02D+aGKKWFsZmQE=\r\n=Wmgq\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "hujianeng",
+        "email": "463501447@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "hujianeng",
+            "email": "463501447@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/003-webpack-numbers_1.0.10_1676969810631_0.8017245143667688"
+    },
+    "_hasShrinkwrap": false
+}

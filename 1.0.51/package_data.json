@@ -1,0 +1,40 @@
+{
+    "name": "0.edsql.electron",
+    "version": "1.0.51",
+    "main": "index.js",
+    "license": "MIT",
+    "gitHead": "25f86a13174d287842c63e9c78c7cf8be35a67e9",
+    "_id": "0.edsql.electron@1.0.51",
+    "_nodeVersion": "14.16.0",
+    "_npmVersion": "lerna/4.0.0/node@v14.16.0+x64 (win32)",
+    "dist": {
+        "integrity": "sha512-ZXmdJBGYA9/toG7tGNM8MVRj3Lvbb548N3VvxymyEFCGw68oq2P4tBo5/ryfb1AExwaEor3yaszwfC817RlBBQ==",
+        "shasum": "44f1f85a784d373d2b636829abcecf225469b5dc",
+        "tarball": "https://registry.npmjs.org/0.edsql.electron/-/0.edsql.electron-1.0.51.tgz",
+        "fileCount": 6,
+        "unpackedSize": 3729,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg1wwvCRA9TVsSAnZWagAAu+QP/i/LxkfkkcevO8WIY3GU\nJYckWsYeTx5rG2UuS6bA85kxjgwO5jpgSWbKGJQtYWYJ+a3f8gWbgdbmgHhJ\na9A/2cBnjwhdw7IwSWtWu0MSfjchTheVETwUJvq5FhSquUqskcownSlHiKbw\nQ4kFk2jp6pp5SE8Jq6fx81r1fo0QQHAJDYGZ32yKEt3aVXuM38V/zXItCbgW\noaeYUvRUmbd7To3cHRCAyBqFrb8wkO8rXE5DQMfs7GoBnT/dIATwyHVkU8a4\nsEZOcumN552NiNNL9ul8ETaiQALpolfB2FxEdS1yuA684+rR1Ju9YxkGq0mO\nOpII6GEQUeExkUALn9uc6fdbBUVYWs15YFdLyj7zq9f3+4BKk4CQ1Gl7oZmE\nTSicKJFyMenNT63plWzjB+n2w24ajJDfuTHrtGB/KvBVQoGOXrONvH0JeAKJ\n0V/Ul1mEO0DTywplEuk/kFR533Y7LA7k+a+I/6AWToJ97OyBpYhSIdcwHby7\nGv4SBPIVVnUnPh4dX9OuFyGs6f1pSEliJHqfl4lBdCz0cnQ5/IpRKS6eqs3r\nLzUCvaVJ6fAlJhDebpxhOFWeFT5ssLbVnOjPfh7on1epwDtPNxuUJDVKrQsl\nOI+llDkkIaC9UpgaVpz/rzCsweSAzAT5JuMQbndfSq8c7JOu4z8IYpqYke6o\n9CvV\r\n=p29S\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQDQFUsOUEAR9JNIqpK9MDYfpiz+xvkTq4hdi3mRJ0AdVgIhALPdR+4R6GNWkNpT6ArhNizJWIWQQhnrWYPc1gtsO7wR"
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "kitchens",
+        "email": "kitchens@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "kitchens",
+            "email": "kitchens@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/0.edsql.electron_1.0.51_1624706095474_0.7436161702780557"
+    },
+    "_hasShrinkwrap": false
+}
