@@ -1,0 +1,80 @@
+{
+    "name": "00bx-kiro-gateway",
+    "version": "1.0.5",
+    "keywords": [
+        "ai-sdk",
+        "opencode",
+        "kiro",
+        "claude",
+        "provider",
+        "free",
+        "codewhisperer"
+    ],
+    "author": {
+        "name": "00bx"
+    },
+    "license": "MIT",
+    "_id": "00bx-kiro-gateway@1.0.5",
+    "maintainers": [
+        {
+            "name": "00bx",
+            "email": "zamanagha68@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/00bx/00bx-kiro-gateway#readme",
+    "bugs": {
+        "url": "https://github.com/00bx/00bx-kiro-gateway/issues"
+    },
+    "dist": {
+        "shasum": "11665b11e0f292dfcccb4dd9d10f8400196bc1c6",
+        "tarball": "https://registry.npmjs.org/00bx-kiro-gateway/-/00bx-kiro-gateway-1.0.5.tgz",
+        "fileCount": 8,
+        "integrity": "sha512-aNcSyI3YfFFiHH98Parephw6tV0yvzc/FSIM6CaZzrdYwg/3JT7pMnul6mFYceSh68WuIliHoMkvkhzMGQwFdw==",
+        "signatures": [
+            {
+                "sig": "MEUCIQDOlXAoLaHK5pSkkBRoNimFyuOFoEp0i5FrM1PfDKnDhAIgVluNUeLBSWCuxEI8fkfkmT5dt0WPq9kRBANNaHs9/G0=",
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+        ],
+        "unpackedSize": 190913
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "module": "dist/index.mjs",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.mts",
+            "import": "./dist/index.mjs",
+            "default": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "gitHead": "3430a69ea1efbe30f0aacbabb8974fde5483f0f5",
+    "scripts": {
+        "build": "tsup",
+        "prepublishOnly": "npm run build"
+    },
+    "_npmUser": {
+        "name": "00bx",
+        "email": "zamanagha68@gmail.com"
+    },
+    "repository": {
+        "url": "git+https://github.com/00bx/00bx-kiro-gateway.git",
+        "type": "git"
+    },
+    "_npmVersion": "10.8.2",
+    "description": "AI SDK provider for free Claude models via Kiro CLI \u2014 use with OpenCode",
+    "directories": {},
+    "_nodeVersion": "18.20.8",
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+        "tsup": "^8.0.0",
+        "typescript": "^5.7.0",
+        "@types/node": "^22.0.0",
+        "@ai-sdk/provider": "^3.0.8"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/00bx-kiro-gateway_1.0.5_1770638017814_0.8301754896287896",
+        "host": "s3://npm-registry-packages-npm-production"
+    }
+}

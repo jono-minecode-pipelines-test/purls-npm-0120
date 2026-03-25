@@ -1,0 +1,71 @@
+{
+    "name": "00bx-kiro-gateway",
+    "version": "1.0.0",
+    "keywords": [
+        "ai-sdk",
+        "opencode",
+        "kiro",
+        "claude",
+        "provider",
+        "free",
+        "codewhisperer"
+    ],
+    "author": {
+        "name": "00bx"
+    },
+    "license": "MIT",
+    "_id": "00bx-kiro-gateway@1.0.0",
+    "maintainers": [
+        {
+            "name": "00bx",
+            "email": "zamanagha68@gmail.com"
+        }
+    ],
+    "dist": {
+        "shasum": "9bbdd5581687bcecb14f8788e29aad820c636611",
+        "tarball": "https://registry.npmjs.org/00bx-kiro-gateway/-/00bx-kiro-gateway-1.0.0.tgz",
+        "fileCount": 7,
+        "integrity": "sha512-Bxgecwn6YUGjjRC2iGT1kAZMLTKqUMR5cERdADk+ZtGKq7vMc4OM/Qnjc1fLP6ElARDnMMT7Gx5TtJ1ThrRx2A==",
+        "signatures": [
+            {
+                "sig": "MEQCIE/7y+JZSU188GXstltsW6n9k8+joUPmtGAcaXh1hXsmAiAPEB+V+MXc+NtingK84sC+nEYwiXO3yxrUagSQmzXtpQ==",
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+        ],
+        "unpackedSize": 187695
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "module": "dist/index.mjs",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.mts",
+            "import": "./dist/index.mjs",
+            "default": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "scripts": {
+        "build": "tsup",
+        "prepublishOnly": "npm run build"
+    },
+    "_npmUser": {
+        "name": "00bx",
+        "email": "zamanagha68@gmail.com"
+    },
+    "_npmVersion": "10.8.2",
+    "description": "AI SDK provider for free Claude models via Kiro CLI \u2014 use with OpenCode",
+    "directories": {},
+    "_nodeVersion": "18.20.8",
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+        "tsup": "^8.0.0",
+        "typescript": "^5.7.0",
+        "@types/node": "^22.0.0",
+        "@ai-sdk/provider": "^3.0.8"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/00bx-kiro-gateway_1.0.0_1770636263199_0.4737247261795041",
+        "host": "s3://npm-registry-packages-npm-production"
+    }
+}

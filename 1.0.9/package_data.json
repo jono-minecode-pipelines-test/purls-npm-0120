@@ -1,0 +1,80 @@
+{
+    "name": "00bx-kiro-gateway",
+    "version": "1.0.9",
+    "description": "AI SDK provider that lets OpenCode use Claude models through Kiro CLI's free-tier credits",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.mts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js",
+            "default": "./dist/index.mjs"
+        }
+    },
+    "scripts": {
+        "build": "tsup",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "ai-sdk",
+        "opencode",
+        "kiro",
+        "claude",
+        "provider",
+        "free",
+        "codewhisperer"
+    ],
+    "author": {
+        "name": "00bx"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/00bx/00bx-kiro-gateway.git"
+    },
+    "homepage": "https://github.com/00bx/00bx-kiro-gateway#readme",
+    "bugs": {
+        "url": "https://github.com/00bx/00bx-kiro-gateway/issues"
+    },
+    "devDependencies": {
+        "@ai-sdk/provider": "^3.0.8",
+        "@types/node": "^22.0.0",
+        "tsup": "^8.0.0",
+        "typescript": "^5.7.0"
+    },
+    "_id": "00bx-kiro-gateway@1.0.9",
+    "gitHead": "f72f649461eb6a8d28ff6eeee703f4b99bc02c9d",
+    "_nodeVersion": "18.20.8",
+    "_npmVersion": "10.8.2",
+    "dist": {
+        "integrity": "sha512-8VqvWRyjuaxzsBlvd0x7yUSrN8sap6SsnGjjfiKLcMXWxXuxVJEiCyRX0y4fkUhgY5b12TprXBfAlHu66hVFHA==",
+        "shasum": "bd73db53fd005a8eeb9fe0f301ad932d95586eab",
+        "tarball": "https://registry.npmjs.org/00bx-kiro-gateway/-/00bx-kiro-gateway-1.0.9.tgz",
+        "fileCount": 8,
+        "unpackedSize": 199019,
+        "signatures": [
+            {
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+                "sig": "MEQCIAsh3WEfKUibNUMfMOd5eLtYjlHcHcIE0nZO/hks2loAAiAdHHj+xt1Udk7oTiDav/XgvkVlS104qJB7+cZAQySP/g=="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "00bx",
+        "email": "zamanagha68@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "00bx",
+            "email": "zamanagha68@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages-npm-production",
+        "tmp": "tmp/00bx-kiro-gateway_1.0.9_1770642333224_0.8750462312286496"
+    },
+    "_hasShrinkwrap": false
+}
